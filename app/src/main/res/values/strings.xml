@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Planner</string>
+    <string name="login_prompt">Login</string>
+    <string name="password_prompt">Password</string>
+    <string name="login_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+
+    <string name="login_button">Login</string>
+    <string name="username_error">Bad Login! — Try again!</string>
+    <string name="password_error">Bad Password! — Try again!</string>
+
+    <string name="weekday_prompt">Weekday:</string>
+    <string-array name="weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string name="duration_hint">Duration</string>
+
+    <string name="exercise">Exercise</string>
+    <string name="work">Work</string>
+    <string name="study">Study</string>
+    <string name="walk_dog">Walk Dog</string>
+    <string name="relax">Relax</string>
+    <string name="clean">Clean</string>
+
+    <string name="progress_max">Congrats!! Today\'s tasks are completed!</string>
+    <string name="submit_button">Submit Schedule</string>
+
+</resources>

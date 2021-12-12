@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".PlannerDisplay">
+
+    <CheckBox
+        android:id="@+id/checkOne"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/displayDurationOne"
+        app:layout_constraintTop_toBottomOf="@+id/hWeekday" />
+
+    <CheckBox
+        android:id="@+id/checkTwo"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/displayDurationTwo"
+        app:layout_constraintTop_toBottomOf="@+id/checkOne" />
+
+    <CheckBox
+        android:id="@+id/checkThree"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/displayDurationThree"
+        app:layout_constraintTop_toBottomOf="@+id/checkTwo" />
+
+    <CheckBox
+        android:id="@+id/checkFour"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/displayDurationFour"
+        app:layout_constraintTop_toBottomOf="@+id/checkThree" />
+
+    <CheckBox
+        android:id="@+id/checkFive"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/displayDurationFive"
+        app:layout_constraintTop_toBottomOf="@+id/checkFour" />
+
+    <CheckBox
+        android:id="@+id/checkSix"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/displayDurationSix"
+        app:layout_constraintTop_toBottomOf="@+id/checkFive" />
+
+    <TextView
+        android:id="@+id/hWeekday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Day of Week"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/displayTaskOne"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hWeekday" />
+
+    <TextView
+        android:id="@+id/displayTaskTwo"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTaskOne" />
+
+    <TextView
+        android:id="@+id/displayTaskThree"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTaskTwo" />
+
+    <TextView
+        android:id="@+id/displayTaskFour"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTaskThree" />
+
+    <TextView
+        android:id="@+id/displayTaskFive"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTaskFour" />
+
+    <TextView
+        android:id="@+id/displayTaskSix"
+        android:layout_width="93dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayTaskFive" />
+
+    <TextView
+        android:id="@+id/displayDurationSix"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/displayTaskSix"
+        app:layout_constraintTop_toBottomOf="@+id/displayDurationFive" />
+
+    <TextView
+        android:id="@+id/displayDurationOne"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/displayTaskOne"
+        app:layout_constraintTop_toBottomOf="@+id/hWeekday" />
+
+    <TextView
+        android:id="@+id/displayDurationTwo"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/displayTaskTwo"
+        app:layout_constraintTop_toBottomOf="@+id/displayDurationOne" />
+
+    <TextView
+        android:id="@+id/displayDurationThree"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/displayTaskThree"
+        app:layout_constraintTop_toBottomOf="@+id/displayDurationTwo" />
+
+    <TextView
+        android:id="@+id/displayDurationFour"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/displayTaskFour"
+        app:layout_constraintTop_toBottomOf="@+id/displayDurationThree" />
+
+    <TextView
+        android:id="@+id/displayDurationFive"
+        android:layout_width="157dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/displayTaskFive"
+        app:layout_constraintTop_toBottomOf="@+id/displayDurationFour" />
+
+    <ProgressBar
+        android:id="@+id/hProgress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="244dp"
+        android:max="120"
+        android:progress="0"
+        android:progressTint="@color/focus_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="179dp"
+        android:layout_height="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/stop" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
